@@ -1,178 +1,178 @@
 codes:
-  - code: 100
-    label: Continue
-    img: http://pixabay.com/static/uploads/photo/2014/06/06/23/56/whiskey-364009_640.jpg
+#  - code: 100
+#    label: Continue
+#    img:
   - code: 200
     label: OK
     img: http://upload.wikimedia.org/wikipedia/commons/7/75/Glencairn_Whisky_Glass.jpg
   - code: 201
     label: Created
     img: http://upload.wikimedia.org/wikipedia/commons/b/b2/Whiskey_Distillery.jpg
-#  - 202:
-#      label: Accepted
-#      img:
-#  - 203:
-#      label: Non-authoritative Information
-#      img:
-#  - 204:
-#      label: No Content
-#      img:
-#  - 206:
-#      label: Partial Content
-#      img:
-#  - 207:
-#      label: Multi-Status
-#      img:
-#  - 208:
-#      label: Already Reported
-#      img:
-#  - 226:
-#      label: IM Used
-#      img:
-#  - 300:
-#      label: Multiple Choices
-#      img:
-#  - 301:
-#      label: Moved Permanently
-#      img:
-#  - 302:
-#      label: Found
-#      img:
-#  - 303:
-#      label: See Other
-#      img:
-#  - 304:
-#      label: Not Modified
-#      img:
-#  - 305:
-#      label: Use Proxy
-#      img:
-#  - 306:
-#      label: Switch Proxy
-#      img:
-#  - 307:
-#      label: Temporary Redirect
-#      img:
-#  - 308:
-#      label: Permanent Redirect
-#      img:
-#  - 400:
-#      label: Bad Request
-#      img:
-#  - 401:
-#      label: Unauthorized
-#      img:
-#  - 402:
-#      label: Payment Required
-#      img:
-#  - 403:
-#      label: Forbidden
-#      img:
-#  - 404:
-#      label: Not Found
-#      img:
-#  - 405:
-#      label: Method Not Allowed
-#      img:
-#  - 406:
-#      label: Not Acceptable
-#      img:
-#  - 407:
-#      label: Proxy Authentication Required
-#      img:
-#  - 408:
-#      label: Request Timeout
-#      img:
-#  - 409:
-#      label: Conflict
-#      img:
-#  - 410:
-#      label: Gone
-#      img:
-#  - 411:
-#      label: Length Required
-#      img:
-#  - 412:
-#      label: Precondition Failed
-#      img:
-#  - 413:
-#      label: Request Entity Too Large
-#      img:
-#  - 414:
-#      label: Request-URI Too Long
-#      img:
-#  - 416:
-#      label: Requested Range Not Satisfiable
-#      img:
-#  - 417:
-#      label: Expectation Failed
-#      img:
-#  - 418:
-#      label: I'm a teapot
-#      img:
-#  - 420:
-#      label: Enhance Your Calm
-#      img:
-#  - 422:
-#      label: Unprocessable Entity
-#      img:
-#  - 423:
-#      label: Locked
-#      img:
-#  - 424:
-#      label: Failed Dependency
-#      img:
-#  - 425:
-#      label: Unordered Collection
-#      img:
-#  - 426:
-#      label: Upgrade Required
-#      img:
-#  - 429:
-#      label: Too Many Requests
-#      img:
-#  - 431:
-#      label: Request Header Fields Too Large
-#      img:
-#  - 444:
-#      label: No Response
-#      img:
-#  - 450:
-#      label: Blocked By Windows Parental Controls
-#      img:
-#  - 451:
-#      label: Unavailable For Legal Reasons
-#      img:
-#  - 494:
-#      label: Request Header Too Large
-#      img:
-#  - 500:
-#      label: Internal Server Error
-#      img:
-#  - 501:
-#      label: Not Implemented
-#      img:
-#  - 502:
-#      label: Bad Gateway
-#      img:
-#  - 503:
-#      label: Service Unavailable
-#      img:
-#  - 504:
-#      label: Gateway Timeout
-#      img:
-#  - 506:
-#      label: Variant Also Negotiates
-#      img:
-#  - 507:
-#      label: Insufficient Storage
-#      img:
-#  - 508:
-#      label: Loop Detected
-#      img:
-#  - 509:
-#      label: Bandwidth Limit Exceeded
-#      img:
-#  - 510:
-#      label: Not Extended
-#      img:
+#  - code: 202
+#    label: Accepted
+#    img:
+#  - code: 203
+#    label: Non-authoritative Information
+#    img:
+#  - code: 204
+#    label: No Content
+#    img:
+#  - code: 206
+#    label: Partial Content
+#    img:
+#  - code: 207
+#    label: Multi-Status
+#    img:
+#  - code: 208
+#    label: Already Reported
+#    img:
+#  - code: 226
+#    label: IM Used
+#    img:
+#  - code: 300
+#    label: Multiple Choices
+#    img:
+#  - code: 301
+#    label: Moved Permanently
+#    img:
+#  - code: 302
+#    label: Found
+#    img:
+#  - code: 303
+#    label: See Other
+#    img:
+#  - code: 304
+#    label: Not Modified
+#    img:
+#  - code: 305
+#    label: Use Proxy
+#    img:
+#  - code: 306
+#    label: Switch Proxy
+#    img:
+#  - code: 307
+#    label: Temporary Redirect
+#    img:
+#  - code: 308
+#    label: Permanent Redirect
+#    img:
+#  - code: 400
+#    label: Bad Request
+#    img:
+#  - code: 401
+#    label: Unauthorized
+#    img:
+#  - code: 402
+#    label: Payment Required
+#    img:
+#  - code: 403
+#    label: Forbidden
+#    img:
+#  - code: 404
+#    label: Not Found
+#    img:
+#  - code: 405
+#    label: Method Not Allowed
+#    img:
+#  - code: 406
+#    label: Not Acceptable
+#    img:
+#  - code: 407
+#    label: Proxy Authentication Required
+#    img:
+#  - code: 408
+#    label: Request Timeout
+#    img:
+#  - code: 409
+#    label: Conflict
+#    img:
+#  - code: 410
+#    label: Gone
+#    img:
+#  - code: 411
+#    label: Length Required
+#    img:
+#  - code: 412
+#    label: Precondition Failed
+#    img:
+#  - code: 413
+#    label: Request Entity Too Large
+#    img:
+#  - code: 414
+#    label: Request-URI Too Long
+#    img:
+#  - code: 416
+#    label: Requested Range Not Satisfiable
+#    img:
+#  - code: 417
+#    label: Expectation Failed
+#    img:
+#  - code: 418
+#    label: I'm a teapot
+#    img:
+#  - code: 420
+#    label: Enhance Your Calm
+#    img:
+#  - code: 422
+#    label: Unprocessable Entity
+#    img:
+#  - code: 423
+#    label: Locked
+#    img:
+#  - code: 424
+#    label: Failed Dependency
+#    img:
+#  - code: 425
+#    label: Unordered Collection
+#    img:
+#  - code: 426
+#    label: Upgrade Required
+#    img:
+#  - code: 429
+#    label: Too Many Requests
+#    img:
+#  - code: 431
+#    label: Request Header Fields Too Large
+#    img:
+#  - code: 444
+#    label: No Response
+#    img:
+#  - code: 450
+#    label: Blocked By Windows Parental Controls
+#    img:
+#  - code: 451
+#    label: Unavailable For Legal Reasons
+#    img:
+#  - code: 494
+#    label: Request Header Too Large
+#    img:
+#  - code: 500
+#    label: Internal Server Error
+#    img:
+#  - code: 501
+#    label: Not Implemented
+#    img:
+#  - code: 502
+#    label: Bad Gateway
+#    img:
+#  - code: 503
+#    label: Service Unavailable
+#    img:
+#  - code: 504
+#    label: Gateway Timeout
+#    img:
+#  - code: 506
+#    label: Variant Also Negotiates
+#    img:
+#  - code: 507
+#    label: Insufficient Storage
+#    img:
+#  - code: 508
+#    label: Loop Detected
+#    img:
+#  - code: 509
+#    label: Bandwidth Limit Exceeded
+#    img:
+#  - code: 510
+#    label: Not Extended
+#    img:

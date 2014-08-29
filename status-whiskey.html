@@ -5,6 +5,13 @@
 <polymer-element name="status-whiskey">
 
     <template>
+        <style>
+            .http-status {
+                color: white;
+                background-color: black;
+            }
+        </style>
+
         <!-- fetch data! -->
         <core-ajax
                 auto
@@ -18,11 +25,13 @@
 
             <!-- the app's main content area -->
             <div id="content" flex relative>
-                <div hidden?="{{ showLoader }}">
+                <div hidden?="{{ showLoader }}" horizontal layout wrap>
                     <template repeat="{{ code in response.codes }}">
-                        <div>{{ code.code }}</div>
-                        <div>{{ code.label }}</div>
-                        <div><img src="{{ code.img }}"/></div>
+                        <div class="http-status" vertical center-justified layout>
+                            <img width="300" height="230" alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                            <h3>{{ code.code }}</h3>
+                            <h4>{{ code.label }}</h4>
+                        </div>
                     </template>
                 </div>
 
