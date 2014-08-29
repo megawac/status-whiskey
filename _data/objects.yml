@@ -13,7 +13,7 @@ codes:
     img:
   - code: 203
     label: Non-authoritative Information
-    img: http://girlmeetsfood.com/wp-content/uploads/2012/10/Whiskey-soup.jpg
+    img:
   - code: 204
     label: No Content
     img:
