@@ -30,7 +30,9 @@
                 <div hidden?="{{ showLoader }}" horizontal layout wrap>
                     <template repeat="{{ code in response.codes }}">
                         <div class="http-status" horizontal center-justified layout>
-                            <img width="300" height="230" alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                            <div horizontal center-justified layout>
+                                <img width="300" height="230" alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                            </div>
                             <div horizontal center-justified layout>
                                 <h3>{{ code.code }}</h3>
                             </div>
