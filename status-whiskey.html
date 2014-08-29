@@ -31,9 +31,10 @@
                 height: 350px;
             }
             .image {
-                width: 300px;
+                overflow: hidden;
+            }
+            .http-status img {
                 height: 230px;
-                background-repeat: no-repeat;
             }
         </style>
 
@@ -62,10 +63,9 @@
                     <template repeat="{{ code in response.codes }}">
                         <template if="{{ code.img }}">
                             <div class="http-status" vertical layout>
-                                <div horizontal center-justified layout>
+                                <div class="image" horizontal center-justified layout>
                                     <a href="{{ code.img }}">
-                                        <div class="image"
-                                             style="background-image: url('{{ code.img }}');"></div>
+                                        <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
                                     </a>
                                 </div>
                                 <div horizontal center-justified layout>
