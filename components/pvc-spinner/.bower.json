@@ -1,0 +1,32 @@
+{
+  "name": "pvc-spinner",
+  "authors": [
+    "Jake Johnson <jake@divshot.com>"
+  ],
+  "description": "A loading spinner Polymer element.",
+  "keywords": "polymer, web-components, pvc",
+  "main": "pvc-spinner.html",
+  "license": "MIT",
+  "homepage": "https://github.com/divshot/pvc-spinner",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.3.3"
+  },
+  "_release": "a3102103d6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a3102103d6dcfc4fea4b1c2aba4a23e89ce808b6"
+  },
+  "_source": "git://github.com/divshot/pvc-spinner.git",
+  "_target": "*",
+  "_originalSource": "divshot/pvc-spinner",
+  "_direct": true
+}

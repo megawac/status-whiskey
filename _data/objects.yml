@@ -1,0 +1,177 @@
+100:
+  label: Continue
+  img: http://pixabay.com/static/uploads/photo/2014/06/06/23/56/whiskey-364009_640.jpg
+200:
+  label: OK
+  img: http://upload.wikimedia.org/wikipedia/commons/7/75/Glencairn_Whisky_Glass.jpg
+201:
+  label: Created
+  img: http://upload.wikimedia.org/wikipedia/commons/b/b2/Whiskey_Distillery.jpg
+202:
+  label: Accepted
+  img:
+203:
+  label: Non-authoritative Information
+  img:
+204:
+  label: No Content
+  img:
+206:
+  label: Partial Content
+  img:
+207:
+  label: Multi-Status
+  img:
+208:
+  label: Already Reported
+  img:
+226:
+  label: IM Used
+  img:
+300:
+  label: Multiple Choices
+  img:
+301:
+  label: Moved Permanently
+  img:
+302:
+  label: Found
+  img:
+303:
+  label: See Other
+  img:
+304:
+  label: Not Modified
+  img:
+305:
+  label: Use Proxy
+  img:
+306:
+  label: Switch Proxy
+  img:
+307:
+  label: Temporary Redirect
+  img:
+308:
+  label: Permanent Redirect
+  img:
+400:
+  label: Bad Request
+  img:
+401:
+  label: Unauthorized
+  img:
+402:
+  label: Payment Required
+  img:
+403:
+  label: Forbidden
+  img:
+404:
+  label: Not Found
+  img:
+405:
+  label: Method Not Allowed
+  img:
+406:
+  label: Not Acceptable
+  img:
+407:
+  label: Proxy Authentication Required
+  img:
+408:
+  label: Request Timeout
+  img:
+409:
+  label: Conflict
+  img:
+410:
+  label: Gone
+  img:
+411:
+  label: Length Required
+  img:
+412:
+  label: Precondition Failed
+  img:
+413:
+  label: Request Entity Too Large
+  img:
+414:
+  label: Request-URI Too Long
+  img:
+416:
+  label: Requested Range Not Satisfiable
+  img:
+417:
+  label: Expectation Failed
+  img:
+418:
+  label: I'm a teapot
+  img:
+420:
+  label: Enhance Your Calm
+  img:
+422:
+  label: Unprocessable Entity
+  img:
+423:
+  label: Locked
+  img:
+424:
+  label: Failed Dependency
+  img:
+425:
+  label: Unordered Collection
+  img:
+426:
+  label: Upgrade Required
+  img:
+429:
+  label: Too Many Requests
+  img:
+431:
+  label: Request Header Fields Too Large
+  img:
+444:
+  label: No Response
+  img:
+450:
+  label: Blocked By Windows Parental Controls
+  img:
+451:
+  label: Unavailable For Legal Reasons
+  img:
+494:
+  label: Request Header Too Large
+  img:
+500:
+  label: Internal Server Error
+  img:
+501:
+  label: Not Implemented
+  img:
+502:
+  label: Bad Gateway
+  img:
+503:
+  label: Service Unavailable
+  img:
+504:
+  label: Gateway Timeout
+  img:
+506:
+  label: Variant Also Negotiates
+  img:
+507:
+  label: Insufficient Storage
+  img:
+508:
+  label: Loop Detected
+  img:
+509:
+  label: Bandwidth Limit Exceeded
+  img:
+510:
+  label: Not Extended
+  img:

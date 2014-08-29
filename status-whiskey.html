@@ -1,0 +1,47 @@
+<link rel="import" href="components/polymer/polymer.html">
+<link rel="import" href="components/core-ajax/core-ajax.html">
+<link rel="import" href="components/pvc-spinner/pvc-spinner.html">
+
+<polymer-element name="status-whiskey">
+
+    <template>
+        <!-- fetch data! -->
+        <core-ajax
+                auto
+                url="//objects.json"
+                handleAs="json"
+                response="{{ codes }}"
+                on-core-response="{{ handleResponse }}"></core-ajax>
+
+        <!-- start the app section -->
+        <div id="app" layout vertical>
+
+            <!-- the app's main content area -->
+            <div id="content" flex relative>
+                <div hidden?="{{ showLoader }}">
+                    <template repeat="{{ code in codes }}">
+                        {{ code }}
+                    </template>
+                </div>
+
+                <div hidden?="{{ !showLoader }}">
+                    <pvc-spinner type="fading-circle"></pvc-spinner>
+                </div>
+
+            </div>
+        </div>
+    </template>
+
+    <script>
+
+        Polymer( 'status-whiskey', {
+            codes: [],
+            showLoader: true,
+            handleResponse: function () {
+                this.showLoader = false;
+            }
+        } );
+
+    </script>
+
+</polymer-element>

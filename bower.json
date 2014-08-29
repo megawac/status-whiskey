@@ -1,0 +1,19 @@
+{
+  "name": "status-whiskey",
+  "version": "0.0.0",
+  "authors": [
+    "AutoSponge <pgrenier@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "components"
+  ],
+  "dependencies": {
+    "core-ajax": "Polymer/core-ajax#~0.4.0",
+    "pvc-spinner": "divshot/pvc-spinner"
+  },
+  "resolutions": {
+    "polymer": ">=0.4.0 <1.0.0"
+  }
+}
