@@ -1,5 +1,8 @@
 <link rel="import" href="components/polymer/polymer.html">
 <link rel="import" href="components/core-ajax/core-ajax.html">
+<link rel="import" href="components/core-header-panel/core-header-panel.html">
+<link rel="import" href="components/core-toolbar/core-toolbar.html">
+<link rel="import" href="components/core-icons/core-icons.html">
 <link rel="import" href="components/pvc-spinner/pvc-spinner.html">
 
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
@@ -10,6 +13,9 @@
         <style>
             #content {
                 font-family: 'Droid Serif', serif;
+            }
+            core-header-panel {
+                height: 100%;
             }
             .http-status {
                 color: white;
@@ -34,7 +40,13 @@
                 on-core-response="{{ handleResponse }}"></core-ajax>
 
         <!-- start the app section -->
-        <div id="app" layout vertical>
+        <core-header-panel>
+            <core-toolbar>
+                <span flex>Whiskey Status Codes</span>
+                <paper-icon-button
+                        icon="social:post-github"
+                        on-tap="{{ openRepo }}"></paper-icon-button>
+            </core-toolbar>
 
             <!-- the app's main content area -->
             <div id="content" flex relative>
@@ -63,7 +75,7 @@
                 </div>
 
             </div>
-        </div>
+        </core-header-panel>
     </template>
 
     <script>
@@ -73,6 +85,9 @@
             showLoader: true,
             handleResponse: function () {
                 this.showLoader = false;
+            },
+            openRepo: function () {
+                window.open( 'https://github.com/AutoSponge/status-whiskey', '_blank' );
             }
         } );
 
