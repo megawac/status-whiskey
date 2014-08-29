@@ -10,7 +10,7 @@
                 auto
                 url="objects.json"
                 handleAs="json"
-                response="{{ codes }}"
+                response="{{ response }}"
                 on-core-response="{{ handleResponse }}"></core-ajax>
 
         <!-- start the app section -->
@@ -19,7 +19,7 @@
             <!-- the app's main content area -->
             <div id="content" flex relative>
                 <div hidden?="{{ showLoader }}">
-                    <template repeat="{{ code in codes }}">
+                    <template repeat="{{ code in response.codes }}">
                         {{ code }}
                     </template>
                 </div>
