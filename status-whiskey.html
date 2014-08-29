@@ -42,7 +42,9 @@
                     <template repeat="{{ code in response.codes }}">
                         <div class="http-status" vertical layout>
                             <div horizontal center-justified layout>
-                                <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                                <a href="{{ code.img }}">
+                                    <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                                </a>
                             </div>
                             <div horizontal center-justified layout>
                                 <h3>{{ code.code }}</h3>

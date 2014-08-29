@@ -1,49 +1,49 @@
 codes:
   - code: 100
     label: Continue
-    img:
+    img: http://i.imgur.com/Hcc52Rz.gif
   - code: 200
     label: OK
-    img:
+    img: http://i.imgur.com/qZxGv4k.jpg
   - code: 201
     label: Created
     img: http://upload.wikimedia.org/wikipedia/commons/b/b2/Whiskey_Distillery.jpg
   - code: 202
     label: Accepted
-    img:
+    img: http://i.imgur.com/gQpctt4.jpg
   - code: 203
     label: Non-authoritative Information
-    img:
+    img: http://girlmeetsfood.com/wp-content/uploads/2012/10/Whiskey-soup.jpg
   - code: 204
     label: No Content
     img:
   - code: 206
     label: Partial Content
-    img:
+    img: http://imgur.com/gallery/X1epoFw
   - code: 207
     label: Multi-Status
-    img:
+    img: http://i.imgur.com/L8P25M9.gif
   - code: 208
     label: Already Reported
-    img:
+    img: http://i.imgur.com/YIGV5Qy.jpg
   - code: 226
     label: IM Used
     img:
   - code: 300
     label: Multiple Choices
-    img:
+    img: http://scontent-b.cdninstagram.com/hphotos-xap1/outbound-distilleryimage4/t0.0-17/OBPTH/7e7746dcd83911e28bc322000a9d0dcb_7.jpg
   - code: 301
     label: Moved Permanently
     img:
   - code: 302
     label: Found
-    img:
+    img: http://i.imgur.com/eZMsGF1.jpg
   - code: 303
     label: See Other
-    img:
+    img: http://i.imgur.com/9q4HV2O.jpg
   - code: 304
     label: Not Modified
-    img:
+    img: http://i.imgur.com/PXsN2Hg.jpg
   - code: 305
     label: Use Proxy
     img:
@@ -52,7 +52,7 @@ codes:
     img:
   - code: 307
     label: Temporary Redirect
-    img:
+    img: http://i.imgur.com/edfyc0s.jpg
   - code: 308
     label: Permanent Redirect
     img:
@@ -64,7 +64,7 @@ codes:
     img:
   - code: 402
     label: Payment Required
-    img:
+    img: http://i.imgur.com/GBEDK.jpg
   - code: 403
     label: Forbidden
     img:
@@ -88,7 +88,7 @@ codes:
     img:
   - code: 410
     label: Gone
-    img:
+    img: http://i.imgur.com/fQb5Uos.jpg
   - code: 411
     label: Length Required
     img:
@@ -112,13 +112,13 @@ codes:
     img:
   - code: 420
     label: Enhance Your Calm
-    img:
+    img: http://i.imgur.com/2DcSozx.png
   - code: 422
     label: Unprocessable Entity
     img:
   - code: 423
     label: Locked
-    img:
+    img: http://i.imgur.com/4dkBR48.jpg
   - code: 424
     label: Failed Dependency
     img:
@@ -130,19 +130,19 @@ codes:
     img:
   - code: 429
     label: Too Many Requests
-    img:
+    img: http://i.imgur.com/PEtjlrq.jpg
   - code: 431
     label: Request Header Fields Too Large
     img:
   - code: 444
     label: No Response
-    img:
+    img: http://i.imgur.com/WM0aM.jpg
   - code: 450
     label: Blocked By Windows Parental Controls
-    img:
+    img: http://i.imgur.com/0IvzT.jpg?1
   - code: 451
     label: Unavailable For Legal Reasons
-    img:
+    img: http://i.imgur.com/Bm49q3o.jpg
   - code: 494
     label: Request Header Too Large
     img:
@@ -151,28 +151,28 @@ codes:
     img:
   - code: 501
     label: Not Implemented
-    img:
+    img: http://i.imgur.com/5NABKqL.jpg
   - code: 502
     label: Bad Gateway
     img:
   - code: 503
     label: Service Unavailable
-    img:
+    img: http://i.imgur.com/N0FHTZX.jpg
   - code: 504
     label: Gateway Timeout
     img:
   - code: 506
     label: Variant Also Negotiates
-    img:
+    img: http://i.imgur.com/LwxIQL3.jpg
   - code: 507
     label: Insufficient Storage
-    img:
+    img: http://i.imgur.com/Ci5Dj1p.jpg
   - code: 508
     label: Loop Detected
-    img:
+    img: http://i.imgur.com/TZtYqH6.gif
   - code: 509
     label: Bandwidth Limit Exceeded
-    img:
+    img: http://i.imgur.com/BtHQf0p.png?1
   - code: 510
     label: Not Extended
     img:
