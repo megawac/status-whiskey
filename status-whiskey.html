@@ -20,7 +20,9 @@
             <div id="content" flex relative>
                 <div hidden?="{{ showLoader }}">
                     <template repeat="{{ code in response.codes }}">
-                        {{ code }}
+                        <div>{{ code.code }}</div>
+                        <div>{{ code.label }}</div>
+                        <div><img src="{{ code.img }}"/></div>
                     </template>
                 </div>
 
