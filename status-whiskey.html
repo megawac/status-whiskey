@@ -29,7 +29,7 @@
             <div id="content" flex relative>
                 <div hidden?="{{ showLoader }}" horizontal layout wrap>
                     <template repeat="{{ code in response.codes }}">
-                        <div class="http-status" horizontal center-justified layout>
+                        <div class="http-status" vertical layout>
                             <div horizontal center-justified layout>
                                 <img width="300" height="230" alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
                             </div>
