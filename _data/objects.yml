@@ -1,88 +1,85 @@
 codes:
   - code: 100
     label: Continue
-    img:
+    img: http://i.imgur.com/j5iNeD1.jpg
   - code: 200
     label: OK
     img: http://i.imgur.com/qZxGv4k.jpg
   - code: 201
     label: Created
-    img: http://upload.wikimedia.org/wikipedia/commons/b/b2/Whiskey_Distillery.jpg
+    img: http://i.imgur.com/CLWyZiI.jpg
   - code: 202
     label: Accepted
-    img:
+    img: http://i.imgur.com/SGPFp4f.jpg
   - code: 203
     label: Non-authoritative Information
     img: http://i.imgur.com/6j7XUJN.jpg
   - code: 204
     label: No Content
-    img:
+    img: http://i.imgur.com/lg1j4JD.jpg
   - code: 206
     label: Partial Content
-    img:
+    img: http://i.imgur.com/Za99ZOU.jpg
   - code: 207
     label: Multi-Status
-    img:
+    img: http://i.imgur.com/MY6JQOx.jpg
   - code: 208
     label: Already Reported
     img: http://i.imgur.com/YIGV5Qy.jpg
-  - code: 226
-    label: IM Used
-    img:
   - code: 300
     label: Multiple Choices
     img: http://scontent-b.cdninstagram.com/hphotos-xap1/outbound-distilleryimage4/t0.0-17/OBPTH/7e7746dcd83911e28bc322000a9d0dcb_7.jpg
   - code: 301
     label: Moved Permanently
-    img:
+    img: http://i.imgur.com/HWhG3ov.jpg
   - code: 302
     label: Found
-    img:
+    img: http://i.imgur.com/hE5QMCi.jpg
   - code: 303
     label: See Other
-    img:
+    img: http://i.imgur.com/9q4HV2O.jpg
   - code: 304
     label: Not Modified
     img: http://i.imgur.com/PXsN2Hg.jpg
   - code: 305
     label: Use Proxy
-    img:
+    img: http://i.imgur.com/yhBHgfe.jpg
   - code: 306
     label: Switch Proxy
     img:
   - code: 307
     label: Temporary Redirect
-    img:
+    img: http://i.imgur.com/mcJoUMU.jpg?1
   - code: 308
     label: Permanent Redirect
-    img:
+    img: http://i.imgur.com/0nAna6G.jpg
   - code: 400
     label: Bad Request
     img:
   - code: 401
     label: Unauthorized
-    img:
+    img: http://i.imgur.com/0IvzT.jpg?1
   - code: 402
     label: Payment Required
     img: http://i.imgur.com/GBEDK.jpg
   - code: 403
     label: Forbidden
-    img:
+    img: http://i.imgur.com/CLNBoHo.jpg
   - code: 404
     label: Not Found
-    img:
+    img: http://i.imgur.com/Qg4EeyB.jpg
   - code: 405
     label: Method Not Allowed
     img: http://i.imgur.com/edfyc0s.jpg
   - code: 406
     label: Not Acceptable
-    img:
+    img: http://i.imgur.com/TDebtrp.jpg
   - code: 407
     label: Proxy Authentication Required
-    img:
+    img: http://i.imgur.com/Tf0UfYP.jpg
   - code: 408
     label: Request Timeout
-    img:
+    img: http://i.imgur.com/SsaJAxK.jpg
   - code: 409
     label: Conflict
     img:
@@ -91,13 +88,13 @@ codes:
     img: http://i.imgur.com/FJOf6hi.jpg
   - code: 411
     label: Length Required
-    img:
+    img: http://i.imgur.com/PXgjXRc.jpg
   - code: 412
     label: Precondition Failed
-    img:
+    img: http://i.imgur.com/DPWupeL.jpg
   - code: 413
     label: Request Entity Too Large
-    img:
+    img: http://i.imgur.com/4JZCUn1.jpg
   - code: 414
     label: Request-URI Too Long
     img:
@@ -106,7 +103,7 @@ codes:
     img:
   - code: 417
     label: Expectation Failed
-    img:
+    img: http://i.imgur.com/C4a7LIP.jpg
   - code: 418
     label: I'm a teapot
     img:
@@ -115,13 +112,13 @@ codes:
     img:
   - code: 423
     label: Locked
-    img:
+    img: http://i.imgur.com/4dkBR48.jpg
   - code: 424
     label: Failed Dependency
     img:
   - code: 425
     label: Unordered Collection
-    img:
+    img: http://i.imgur.com/5UffXSK.jpg
   - code: 426
     label: Upgrade Required
     img: http://i.imgur.com/ZKGTGHz.jpg
@@ -142,16 +139,16 @@ codes:
     img: http://i.imgur.com/Bm49q3o.jpg
   - code: 494
     label: Request Header Too Large
-    img:
+    img: http://i.imgur.com/2khOk.jpg
   - code: 500
     label: Internal Server Error
-    img:
+    img: http://i.imgur.com/fhlWOKm.jpg
   - code: 501
     label: Not Implemented
     img: http://i.imgur.com/5NABKqL.jpg
   - code: 502
     label: Bad Gateway
-    img:
+    img: http://i.imgur.com/G1Ig7SR.jpg
   - code: 503
     label: Service Unavailable
     img: http://i.imgur.com/N0FHTZX.jpg
@@ -169,7 +166,7 @@ codes:
     img: http://i.imgur.com/TZtYqH6.gif
   - code: 509
     label: Bandwidth Limit Exceeded
-    img:
+    img: http://i.imgur.com/BtHQf0p.png?1
   - code: 510
     label: Not Extended
     img:
