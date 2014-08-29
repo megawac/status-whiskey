@@ -11,7 +11,8 @@
   ],
   "dependencies": {
     "core-ajax": "Polymer/core-ajax#~0.4.0",
-    "pvc-spinner": "divshot/pvc-spinner"
+    "pvc-spinner": "divshot/pvc-spinner",
+    "font-roboto": "Polymer/font-roboto#~0.4.0"
   },
   "resolutions": {
     "polymer": ">=0.4.0 <1.0.0"
