@@ -22,7 +22,7 @@ codes:
     img:
   - code: 207
     label: Multi-Status
-    img: http://i.imgur.com/L8P25M9.gif
+    img:
   - code: 208
     label: Already Reported
     img: http://i.imgur.com/YIGV5Qy.jpg
@@ -52,7 +52,7 @@ codes:
     img:
   - code: 307
     label: Temporary Redirect
-    img: http://i.imgur.com/edfyc0s.jpg
+    img:
   - code: 308
     label: Permanent Redirect
     img:
@@ -91,7 +91,7 @@ codes:
     img: http://i.imgur.com/fQb5Uos.jpg
   - code: 411
     label: Length Required
-    img:
+    img: http://i.imgur.com/edfyc0s.jpg
   - code: 412
     label: Precondition Failed
     img:
@@ -110,9 +110,6 @@ codes:
   - code: 418
     label: I'm a teapot
     img:
-  - code: 420
-    label: Enhance Your Calm
-    img: http://i.imgur.com/2DcSozx.png
   - code: 422
     label: Unprocessable Entity
     img:

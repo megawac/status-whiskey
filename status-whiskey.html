@@ -40,19 +40,21 @@
             <div id="content" flex relative>
                 <div hidden?="{{ showLoader }}" horizontal layout wrap>
                     <template repeat="{{ code in response.codes }}">
-                        <div class="http-status" vertical layout>
-                            <div horizontal center-justified layout>
-                                <a href="{{ code.img }}">
-                                    <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
-                                </a>
+                        <template if="{{ code.img }}">
+                            <div class="http-status" vertical layout>
+                                <div horizontal center-justified layout>
+                                    <a href="{{ code.img }}">
+                                        <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                                    </a>
+                                </div>
+                                <div horizontal center-justified layout>
+                                    <h3>{{ code.code }}</h3>
+                                </div>
+                                <div horizontal center-justified layout>
+                                    <h4>{{ code.label }}</h4>
+                                </div>
                             </div>
-                            <div horizontal center-justified layout>
-                                <h3>{{ code.code }}</h3>
-                            </div>
-                            <div horizontal center-justified layout>
-                                <h4>{{ code.label }}</h4>
-                            </div>
-                        </div>
+                        </template>
                     </template>
                 </div>
 
