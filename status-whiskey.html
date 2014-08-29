@@ -16,6 +16,12 @@
                 background-color: black;
                 padding: 20px;
                 margin: 20px;
+                width: 300px;
+                height: 350px;
+            }
+            .http-status img {
+                width: 300px;
+                height: 230px;
             }
         </style>
 
@@ -36,7 +42,7 @@
                     <template repeat="{{ code in response.codes }}">
                         <div class="http-status" vertical layout>
                             <div horizontal center-justified layout>
-                                <img width="300" height="230" alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                                <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
                             </div>
                             <div horizontal center-justified layout>
                                 <h3>{{ code.code }}</h3>
