@@ -1,7 +1,7 @@
 codes:
   - code: 100
     label: Continue
-    img: http://i.imgur.com/Hcc52Rz.gif
+    img:
   - code: 200
     label: OK
     img: http://i.imgur.com/qZxGv4k.jpg
@@ -10,7 +10,7 @@ codes:
     img: http://upload.wikimedia.org/wikipedia/commons/b/b2/Whiskey_Distillery.jpg
   - code: 202
     label: Accepted
-    img: http://i.imgur.com/gQpctt4.jpg
+    img:
   - code: 203
     label: Non-authoritative Information
     img: http://girlmeetsfood.com/wp-content/uploads/2012/10/Whiskey-soup.jpg
@@ -19,7 +19,7 @@ codes:
     img:
   - code: 206
     label: Partial Content
-    img: http://imgur.com/gallery/X1epoFw
+    img:
   - code: 207
     label: Multi-Status
     img: http://i.imgur.com/L8P25M9.gif
@@ -37,10 +37,10 @@ codes:
     img:
   - code: 302
     label: Found
-    img: http://i.imgur.com/eZMsGF1.jpg
+    img:
   - code: 303
     label: See Other
-    img: http://i.imgur.com/9q4HV2O.jpg
+    img:
   - code: 304
     label: Not Modified
     img: http://i.imgur.com/PXsN2Hg.jpg
@@ -118,7 +118,7 @@ codes:
     img:
   - code: 423
     label: Locked
-    img: http://i.imgur.com/4dkBR48.jpg
+    img:
   - code: 424
     label: Failed Dependency
     img:
@@ -136,10 +136,10 @@ codes:
     img:
   - code: 444
     label: No Response
-    img: http://i.imgur.com/WM0aM.jpg
+    img:
   - code: 450
     label: Blocked By Windows Parental Controls
-    img: http://i.imgur.com/0IvzT.jpg?1
+    img:
   - code: 451
     label: Unavailable For Legal Reasons
     img: http://i.imgur.com/Bm49q3o.jpg
@@ -172,7 +172,7 @@ codes:
     img: http://i.imgur.com/TZtYqH6.gif
   - code: 509
     label: Bandwidth Limit Exceeded
-    img: http://i.imgur.com/BtHQf0p.png?1
+    img:
   - code: 510
     label: Not Extended
     img:
