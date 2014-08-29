@@ -13,7 +13,7 @@ codes:
     img:
   - code: 203
     label: Non-authoritative Information
-    img:
+    img: http://i.imgur.com/6j7XUJN.jpg
   - code: 204
     label: No Content
     img:
@@ -73,7 +73,7 @@ codes:
     img:
   - code: 405
     label: Method Not Allowed
-    img:
+    img: http://i.imgur.com/edfyc0s.jpg
   - code: 406
     label: Not Acceptable
     img:
@@ -88,10 +88,10 @@ codes:
     img:
   - code: 410
     label: Gone
-    img: http://i.imgur.com/fQb5Uos.jpg
+    img: http://i.imgur.com/FJOf6hi.jpg
   - code: 411
     label: Length Required
-    img: http://i.imgur.com/edfyc0s.jpg
+    img:
   - code: 412
     label: Precondition Failed
     img:
@@ -124,7 +124,7 @@ codes:
     img:
   - code: 426
     label: Upgrade Required
-    img:
+    img: http://i.imgur.com/ZKGTGHz.jpg
   - code: 429
     label: Too Many Requests
     img: http://i.imgur.com/PEtjlrq.jpg
@@ -136,7 +136,7 @@ codes:
     img:
   - code: 450
     label: Blocked By Windows Parental Controls
-    img:
+    img: http://i.imgur.com/5XCJC.png
   - code: 451
     label: Unavailable For Legal Reasons
     img: http://i.imgur.com/Bm49q3o.jpg
