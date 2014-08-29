@@ -2,7 +2,8 @@
 <link rel="import" href="components/core-ajax/core-ajax.html">
 <link rel="import" href="components/core-header-panel/core-header-panel.html">
 <link rel="import" href="components/core-toolbar/core-toolbar.html">
-<link rel="import" href="components/core-icon/core-icon.html">
+<link rel="import" href="components/core-icons/social-icons.html">
+<link rel="import" href="components/core-icon-button/core-icon-button.html">
 <link rel="import" href="components/pvc-spinner/pvc-spinner.html">
 
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
@@ -13,6 +14,10 @@
         <style>
             #content {
                 font-family: 'Droid Serif', serif;
+            }
+            a {
+                color: black;
+                text-decoration: none;
             }
             core-header-panel {
                 height: 100%;
@@ -42,10 +47,12 @@
         <!-- start the app section -->
         <core-header-panel>
             <core-toolbar>
-                <span flex>Whiskey Status Codes</span>
-                <core-icon
-                        icon="social:post-github"
-                        on-tap="{{ openRepo }}"></core-icon>
+                <h1 flex>
+                    <a href="http://autosponge.github.io/status-whiskey/">Whiskey Status Codes</a>
+                </h1>
+                <a href="https://github.com/AutoSponge/status-whiskey" target="_blank">
+                    <core-icon-button icon="social:post-github"></core-icon-button>
+                </a>
             </core-toolbar>
 
             <!-- the app's main content area -->
@@ -85,9 +92,6 @@
             showLoader: true,
             handleResponse: function () {
                 this.showLoader = false;
-            },
-            openRepo: function () {
-                window.open( 'https://github.com/AutoSponge/status-whiskey', '_blank' );
             }
         } );
 
