@@ -30,9 +30,10 @@
                 width: 300px;
                 height: 350px;
             }
-            .http-status img {
+            .image {
                 width: 300px;
                 height: 230px;
+                background-repeat: no-repeat;
             }
         </style>
 
@@ -63,7 +64,8 @@
                             <div class="http-status" vertical layout>
                                 <div horizontal center-justified layout>
                                     <a href="{{ code.img }}">
-                                        <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
+                                        <div class="image"
+                                             style="background-image: url('{{ code.img }}');"></div>
                                     </a>
                                 </div>
                                 <div horizontal center-justified layout>
