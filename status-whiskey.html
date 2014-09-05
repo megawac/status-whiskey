@@ -15,10 +15,6 @@
             #content {
                 font-family: 'Droid Serif', serif;
             }
-            a {
-                color: black;
-                text-decoration: none;
-            }
             core-header-panel {
                 height: 100%;
             }
@@ -62,19 +58,19 @@
                 <div hidden?="{{ showLoader }}" horizontal layout wrap>
                     <template repeat="{{ code in response.codes }}">
                         <template if="{{ code.img }}">
-                            <div class="http-status" vertical layout>
-                                <div class="image" horizontal center-justified layout>
-                                    <a href="{{ code.img }}">
+                            <a href="#status-{{ code.code }}">
+                                <div class="http-status" id="status-{{ code.code }}" vertical layout>
+                                    <div class="image" horizontal center-justified layout>
                                         <img alt="{{ code.code + ' ' + code.label }}" src="{{ code.img }}"/>
-                                    </a>
+                                    </div>
+                                    <div horizontal center-justified layout>
+                                        <h3>{{ code.code }}</h3>
+                                    </div>
+                                    <div horizontal center-justified layout>
+                                        <h4>{{ code.label }}</h4>
+                                    </div>
                                 </div>
-                                <div horizontal center-justified layout>
-                                    <h3>{{ code.code }}</h3>
-                                </div>
-                                <div horizontal center-justified layout>
-                                    <h4>{{ code.label }}</h4>
-                                </div>
-                            </div>
+                            </a>
                         </template>
                     </template>
                 </div>
