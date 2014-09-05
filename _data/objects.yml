@@ -53,6 +53,9 @@ codes:
   - code: 308
     label: Permanent Redirect
     img: http://i.imgur.com/0nAna6G.jpg
+  - code: 324
+    label: Empty Resource
+    img: http://i.imgur.com/hgRM5NA.jpg
   - code: 400
     label: Bad Request
     img:
